@@ -1,0 +1,5 @@
+services:    
+    command.queues:
+        module: !plugin_dir /_framework/commands/Queues
+        args:   [ !services { tag: queue } ]
+        tags:   love.command

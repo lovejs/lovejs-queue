@@ -1,0 +1,28 @@
+{
+    "name": "@lovejs/queue",
+    "author": "Vincent <vincent@fullstack.pro>",
+    "version": "0.0.1",
+    "description": "Lovejs queue",
+    "main": "src/index.js",
+    "keywords": [
+        "lovejs",
+        "queue",
+        "lovejs plugin"
+    ],
+    "license": "MIT",
+    "homepage": "http://lovejs.io/",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lovejs/lovejs-queue.git"
+    },
+    "bugs": {
+        "url": "https://github.com/lovejs/lovejs-queue/issues"
+    },
+    "peerDependencies": {
+        "@lovejs/components": "^0.0.1",
+        "@lovejs/framework": "^0.0.1"
+    },
+    "dependencies": {
+        "bull": "^3.4.2"
+    }
+}
